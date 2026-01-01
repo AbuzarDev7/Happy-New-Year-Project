@@ -175,3 +175,79 @@
             pointer-events: none;
             z-index: 1;
         }
+
+        /* ===== ONLY RESPONSIVE – DO NOT TOUCH ORIGINAL CSS ===== */
+
+/* Tablet */
+@media (max-width: 1024px) {
+  #countdown {
+    font-size: 110px;
+  }
+
+  .balloon-slot {
+    width: 100px;
+    height: 130px;
+  }
+
+  .balloon {
+    width: 100px;
+    height: 130px;
+    font-size: 48px;
+  }
+
+  .message {
+    font-size: 36px;
+  }
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  #countdown {
+    font-size: 80px;
+  }
+
+  .balloon-container {
+    gap: 10px;
+  }
+
+  .balloon-slot {
+    width: 80px;
+    height: 110px;
+  }
+
+  .balloon {
+    width: 80px;
+    height: 110px;
+    font-size: 36px;
+  }
+
+  .message {
+    font-size: 26px;
+  }
+}
+
+/* Small Mobile */
+@media (max-width: 480px) {
+  #countdown {
+    font-size: 60px;
+  }
+
+  .balloon-container {
+    gap: 6px;
+  }
+
+  .balloon-slot {
+    width: 65px;
+    height: 90px;
+  }
+
+  .balloon {
+    width: 65px;
+    height: 90px;
+    font-size: 28px;
+  }
+
+  .message {
+    font-size: 22px;
+  }
+}
